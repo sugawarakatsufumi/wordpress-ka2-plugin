@@ -87,6 +87,27 @@
                 "max_height": "",
                 "max_size": "",
                 "mime_types": ""
+            },
+            {
+                "key": "field_680abb748f98b",
+                "label": "SEOキーワード",
+                "name": "seo_keyword",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "allow_in_bindings": 0,
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
             }
         ],
         "location": [
@@ -95,6 +116,58 @@
                     "param": "post_type",
                     "operator": "==",
                     "value": "post"
+                }
+            ],
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "page"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_67edcd057af59",
+        "title": "ページ拡張設定",
+        "fields": [
+            {
+                "key": "field_67edcd0583e58",
+                "label": "Bodyに追加するclass",
+                "name": "body_class",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "allow_in_bindings": 0,
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "page"
                 }
             ]
         ],
